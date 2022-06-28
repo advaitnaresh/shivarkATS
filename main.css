@@ -1,0 +1,60 @@
+body{
+  width: 100%;
+  margin: 0;
+}
+.admintext{
+  color: black;
+  text-decoration: none;
+  position: absolute;
+  right: 45%;
+  bottom: 87%;
+  font-size: 1.1em;
+}
+.admintext:hover{
+  color: #1363DF;
+}
+.recruitertext{
+  color: black;
+  text-decoration: none;
+  position:absolute;
+  right: 30%;
+  bottom: 87%;
+  font-size: 1.1em;
+}
+.recruitertext:hover{
+  color: #1363DF;
+}
+.interviewertext{
+  color:black;
+  text-decoration: none;
+  position: absolute;
+  right: 15%;
+  bottom: 87%;
+  font-size: 1.1em;
+}
+.interviewertext:hover{
+  color: #1363DF;
+}
+.imager{
+  left: 0;
+  top: 0;
+}
+
+.wedo{
+  float: left;
+  height: 520px;
+  width: 480px;
+  padding-right: 20px;
+}
+
+.texter{
+  margin-left: 20%;
+  text-align: center;
+  font-size: 1.4em;
+  height: 421px;
+}
+.tp{
+  margin: 0;
+  padding-right: 20px;
+  background-color: #1363DF;
+}
