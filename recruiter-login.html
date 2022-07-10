@@ -3,20 +3,37 @@
   <head>
     <meta charset="utf-8">
     <title>Recruiter</title>
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="login.css">
   </head>
   <body>
     <p>
-      <img src="shivark logo.webp" alt="" class="imager">
-    <div class="admintext">
-      Admin
-    </div>
-    <div class="recruitertext" style="color:#1363DF">
-      Recruiter
-    </div>
-    <div class="interviewertext">
-      Interviewer
-    </div>
+        <a href="index.html"><img src="shivark_logo.png" alt="" class="imager"></a>
+      <div class="admintext">
+        <a href="admin-login.html" class="admintext">Admin</a>
+      </div>
+      <div class="recruitertext">
+        <a href="recruiter-login.html" class="recruitertext"style="color: #339D41;">Recruiter</a>
+      </div>
+      <div class="interviewertext">
+        <a href="interviewer-login.html" class="interviewertext">Interviewer</a>
+      </div>
     </p>
+    <div class="login">
+      <h1>Recruiter Login</h1>
+      <form method="post">
+        <div class="inputter">
+          <input type="text" required>
+          <label>Username</label>
+        </div>
+        <div class="inputter">
+          <input type="password" required>
+          <label>Password</label>
+        </div>
+        <div class="passworder">
+          Forgot Password?
+          </div>
+          <input type="submit" value="Login">
+      </form>
+    </div>
   </body>
 </html>
