@@ -1,7 +1,8 @@
 body{
   margin: 0;
   padding: 0;
-  background: linear-gradient(120deg,#2980b9, #8e44ad);
+  /* background: linear-gradient(120deg,#2980b9, #8e44ad); */
+  background-color: #F4F5FF;
   height: 100vh;
   overflow: hidden;
 }
@@ -54,7 +55,7 @@ form .inputter{
   position: absolute;
   top: 40px;
   left: 0;
-  width: 0%;
+  width: 0;
   height: 2px;
   background: #2691d9;
   transition: .5s;
@@ -69,7 +70,7 @@ form .inputter{
   width: 100%;
 }
 .passworder{
-  margin: 5px 0px 20px 5px;
+  margin: 5px 0 20px 5px;
   color: #a6a6a6;
   cursor: pointer;
 }
